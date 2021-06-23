@@ -1,0 +1,5 @@
+- int mat[4], *p, x;
+- [x] p = mat + 1 -> VÁLIDA , pois eu estou dizendo que o ponteiro p recebe o endereço do primeiro elemento do vetor mat acrescido de 1, ou seja, p recebe o endereço do segundo elemento de mat. 
+- [] p = mat++ -> INVÁLIDA, pois o compilador pode não entender
+- [] p = ++mat -> INVÁLIDA, pois o compilador pode não entender
+- [x] x = (*mat)++ -> VÁLIDA, pois aqui eu pego o conteúdo do vetor mat na primeira posição e somo 1.
