@@ -1,0 +1,1 @@
+- Obtive a resposta esperada, o ponteiro f recebe o endereço do primeiro elemento do array vet, logo, o conteúdo do i-ésimo endereço de f será igual ao i-ésimo item do array vet.
