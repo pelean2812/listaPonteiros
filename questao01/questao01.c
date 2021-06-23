@@ -8,13 +8,6 @@ int main(void)
     p = &i; //p recebe o endereço da variável i
     q = &j; //q recebe o endereço da variável j
 
-    p == &i; //verdeiro
-    *p - *q; // -2
-    **&p; //3
-    3 - *p / (*q) + 7; //10
-
-    /*------------------JUSTIFICATIVAS ABAIXO------------------*/
-
     if (p == &i){
         printf("p == &i\n"); //p realmente contém o endereço da variável i, então de fato, p=&i
     }else{
