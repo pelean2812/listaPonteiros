@@ -1,0 +1,5 @@
+ - p = i é ilegal, pois p é um ponteiro, e ponteiros armazenam endereços, não valores. O correto seria dizer que p recebe o endereço de i.
+ - i = (*&)j é ilegal, pois há um erro de sintaxe.
+ - i = *&j é ilegal
+ - q = *p é ilegal, pois q é um ponteiro, e ponteiros armazenam endereços, não valores. O correto seria dizer que q recebe o endereço de p.
+ - i = (*p)++ + *q é ilegal. Mesmo se atribuíssemos algum valor para o conteúdo de p e q, o *p++ só seria executado após a execução da linha atual.
