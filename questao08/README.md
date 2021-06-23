@@ -1,0 +1,2 @@
+- No primeiro programa, é criado e inicializado um vetor vet, e depois eu percorro todas as posições do vetor, sempre imprimindo o conteúdo dele na i-ésima posição.
+- No segundo programa, é criado e inicializado um vetor vet, e depois eu percorro todas as posições do vetor, mas agora, eu imprimo a posição na memória de cada elemento do vetor, ao em vez do conteúdo.
