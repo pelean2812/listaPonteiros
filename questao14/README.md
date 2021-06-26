@@ -1,4 +1,4 @@
-##Sobre a questão 14:
+## Sobre a questão 14: (o simbolo "*" nao esta aparecendo no README.md, ao editar aparece)
 ### a implementação com um array de int tem a seguinte funcao compare:
 - int compare (const void * a, const void * b){
 -   return (*(int*)a - *(int*)b); 
