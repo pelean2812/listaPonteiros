@@ -24,7 +24,7 @@ int main(){
     int n;
     scanf("%d", &n);
     float *vetor;
-    vetor = malloc(n*sizeof(float));
+    vetor = malloc(n*sizeof(float)); //aloca memoria para o tamanho desejado no array
     recebeValores(vetor, n);
     printf("Antes:\n");
     for(int i = 0; i< n; i++){
@@ -35,6 +35,6 @@ int main(){
     for(int i = 0; i< n; i++){
         printf("%4.2f\n", vetor[i]);
     }
-    free(vetor);
+    free(vetor); //libera a memoria
     return 0;
 }
