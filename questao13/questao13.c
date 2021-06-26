@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h> //pra incluir o malloc()
 
 void recebeValores(float *pArray, int n){
     for(int i = 0; i<n; i++){
@@ -22,7 +23,8 @@ void ordenar(float *pArray, int n){
 int main(){
     int n;
     scanf("%d", &n);
-    float vetor[n];
+    float *vetor;
+    vetor = malloc(n*sizeof(float));
     recebeValores(vetor, n);
     printf("Antes:\n");
     for(int i = 0; i< n; i++){
@@ -33,5 +35,6 @@ int main(){
     for(int i = 0; i< n; i++){
         printf("%4.2f\n", vetor[i]);
     }
+    free(vetor);
     return 0;
 }
