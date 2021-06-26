@@ -1,4 +1,4 @@
-#Função sort();
+# Função sort();
 - Protótipo da função: 
 ```c
 sort(float *vetor, int tamanho, int (*comp)(const void*,const void*))
@@ -12,7 +12,7 @@ sort(float *vetor, int tamanho, int (*comp)(const void*,const void*))
 sort(vetor, tamanho, &compare)
 ```
 
-#Explciando a função auxiliar mostrada no código:
+# Explciando a função auxiliar mostrada no código:
 ```c
 int compare(const void *num1, const void *num2){
     float numA = *(float*) num1; //converte de void pra float o num1
@@ -21,7 +21,7 @@ int compare(const void *num1, const void *num2){
 }
 ```
 
-#Explciando a função sort:
+# Explciando a função sort:
 ```c
 void sort(float *vetor, int tamanho, int (*comp)(const void*,const void*)){
     float aux = 0; 
