@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void soma(int *vetor1, int *vetor2, int *vetorSoma, int tamanho);
 void leVetor(int *vetor, int tamanho);
